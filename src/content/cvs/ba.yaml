@@ -1,0 +1,34 @@
+headline: Business Analyst
+summary: >-
+  Business analyst with 14+ years of experience in requirements engineering, business process
+  analysis and software delivery. IREB CPRE certified and skilled at eliciting needs from management
+  and users, structuring complex processes and translating them into clear, testable system
+  requirements. A strong technical background in system integration, APIs and data enables
+  effective collaboration with development teams across the full delivery lifecycle.
+
+skills:
+  - category: Business & Requirements
+    items: [Requirements Engineering, Business Process Analysis, Solution Design, Process Improvement, Prioritization & Decision Making]
+  - category: Systems & Technology
+    items: [System Integration, APIs & System Interfaces, SQL & MySQL, Software Implementation, "PIM, MDM & DAM"]
+  - category: Delivery & Stakeholders
+    items: [Stakeholder Management, Project Planning & Estimation, Scope & Timeline Management, Technical Coordination, Team Leadership]
+  - category: Technical Background
+    items: [PHP & Symfony, TypeScript & JavaScript, React & Vue, Pimcore & TYPO3, Docker]
+
+work:
+  travix:
+    positions:
+      lead:
+        bullets:
+          - Managed 12+ software projects for 11+ clients from requirements analysis through solution definition, implementation and launch.
+          - Worked closely with clients to understand business needs, clarify requirements and translate them into practical system and technology solutions.
+          - Acted as the main point of contact between clients, stakeholders and development teams, resolving issues, analyzing impacts and managing requirements.
+          - Led teams of up to 9 developers and 2 project managers, coordinating priorities, dependencies and technical delivery.
+      dev:
+        bullets:
+          - Delivered 10+ web projects for 10+ clients, translating customer requirements into functional and technical solutions and system integrations.
+  html-design:
+    bullets:
+      - Developed and maintained websites and software for 4 clients across 5+ projects.
+      - Designed databases, data models and schemas, and optimized queries to cut processing times from 4-5 seconds to under 1 second.

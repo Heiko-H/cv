@@ -1,0 +1,41 @@
+headline: IT Project Manager
+summary: >-
+  IT project manager with 14+ years in software delivery, including 4 years leading teams of up to
+  9 developers and 2 project managers. Managed 12+ software projects for 11+ clients end-to-end -
+  from requirements and estimation through budget tracking, implementation and launch. A
+  hands-on development background enables realistic planning, early risk detection and credible
+  communication between clients, stakeholders and engineering teams.
+
+skills:
+  - category: Project Delivery
+    items: [End-to-End Project Management, Project Planning & Scheduling, Scope & Timeline Management, Risk & Issue Resolution, Launch Coordination]
+  - category: Budget & Resources
+    items: [Effort Estimation, Cost Planning, Budget Tracking, Resource & Capacity Planning]
+  - category: Stakeholders & Leadership
+    items: [Client & Stakeholder Management, Team Leadership, Mentoring & Onboarding, Cross-functional Coordination]
+  - category: Requirements
+    items: [Requirements Engineering, Business Process Analysis, Solution Design, Prioritization]
+  - category: Technical Background
+    items: [PHP & Symfony, TypeScript, React & Vue, SQL & MySQL, APIs & System Integration]
+
+work:
+  ri-werkstattservice:
+    bullets:
+      - Coordinate implementation across 8 business applications and multiple external development partners, managing dependencies, priorities and delivery timelines.
+      - Analyze and structure 10+ complex business processes with management and users to define scope and system requirements.
+      - Assess the impact of changes across systems and workflows to support clear prioritization decisions.
+  travix:
+    positions:
+      lead:
+        bullets:
+          - Managed 12+ software projects for 11+ clients end-to-end, from requirements analysis and solution definition through implementation and launch.
+          - Planned scope, timelines, resources and budgets, including effort estimation, cost planning and ongoing scope and budget tracking.
+          - Led teams of up to 9 developers and 2 project managers, balancing priorities, workloads and dependencies across parallel projects.
+          - Served as the main point of contact for clients and stakeholders, resolving issues, analyzing impacts and managing requirement changes.
+      dev:
+        bullets:
+          - Delivered 10+ web projects for 10+ clients, translating customer requirements into functional and technical solutions.
+  html-design:
+    bullets:
+      - Delivered 5+ web and software projects for 4 clients.
+      - Optimized database queries, reducing processing times from 4-5 seconds to under 1 second.

@@ -1,0 +1,25 @@
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+
+# environment variables (contain private contact details!)
+.env
+.env.*
+!.env.example
+
+# private source documents (contain plaintext contact details!)
+*.pdf
+
+# test artefacts
+test-results/
+playwright-report/
+
+# OS / IDE
+.DS_Store
+Thumbs.db

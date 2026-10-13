@@ -1,0 +1,32 @@
+---
+interface Props {
+  /** Public URL of this resume, printed when the contact details were not revealed. */
+  url: URL;
+}
+
+const { url } = Astro.props;
+const displayUrl = `${url.host}${url.pathname}`.replace(/\/$/, '');
+---
+
+<div class="contact" data-c={__CV_CONTACT_CIPHER__}>
+  {/* Deliberately no button or link: the label is drawn by CSS (src/styles/cv.css), see src/scripts/contact.ts. */}
+  <div class="contact__reveal no-print" aria-hidden="true">
+    <svg viewBox="0 0 16 16" width="12" height="12">
+      <path
+        fill="currentColor"
+        d="M8 1a3.5 3.5 0 0 0-3.5 3.5V6H4a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-.5V4.5A3.5 3.5 0 0 0 8 1Zm2 5H6V4.5a2 2 0 1 1 4 0V6Z"
+      ></path>
+    </svg>
+  </div>
+  <ul class="contact__list" id="contact-details" aria-live="polite" hidden></ul>
+  <p class="contact__print-note">
+    Contact details: see web version<br />
+    <a href={url.href}>{displayUrl}</a>
+  </p>
+</div>
+
+<script>
+  import { initContactReveal } from '../scripts/contact';
+
+  initContactReveal();
+</script>

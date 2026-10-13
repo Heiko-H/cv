@@ -1,0 +1,18 @@
+---
+import type { GetStaticPaths } from 'astro';
+import CvLayout from '../layouts/CvLayout.astro';
+import { loadCvs } from '../lib/cv';
+import type { Cv } from '../lib/schema';
+
+export const getStaticPaths = (() =>
+  loadCvs().map(({ slug, data }) => ({ params: { slug }, props: { slug, cv: data } }))) satisfies GetStaticPaths;
+
+interface Props {
+  slug: string;
+  cv: Cv;
+}
+
+const { slug, cv } = Astro.props;
+---
+
+<CvLayout slug={slug} cv={cv} />

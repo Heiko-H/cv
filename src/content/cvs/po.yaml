@@ -1,0 +1,42 @@
+headline: Product Owner
+summary: >-
+  Product-minded technology professional with 14+ years of turning user and business needs into
+  valuable software. Defines and prioritizes requirements across 8 business applications, works
+  directly with users to uncover underlying problems, and has guided development teams from idea
+  to launch on 12+ client projects. IREB CPRE certified, with a hands-on engineering background
+  that supports clear user stories, realistic trade-offs and close collaboration with developers.
+
+skills:
+  - category: Product Ownership
+    items: [Backlog Management, Prioritization & Trade-offs, User Stories & Acceptance Criteria, Release Planning]
+  - category: Users & Business
+    items: [User Needs Analysis, Business Process Analysis, UX Improvement, Solution Design, Process Improvement]
+  - category: Collaboration
+    items: [Stakeholder Management, Client Communication, Cross-functional Team Leadership, Developer Collaboration]
+  - category: Delivery
+    items: [Effort Estimation, Scope & Timeline Management, Budget Tracking, Dependency Management]
+  - category: Technical Background
+    items: [APIs & System Integration, PHP & Symfony, TypeScript, React & Vue, SQL & MySQL]
+
+work:
+  ri-werkstattservice:
+    bullets:
+      - Define and prioritize requirements for 8 business applications together with management, users and development partners.
+      - Work directly with users to uncover underlying problems and turn them into functional improvements and a better user experience.
+      - Analyze 10+ complex business processes to identify improvement opportunities and system impacts that inform priorities.
+      - Coordinate delivery with development partners, weighing dependencies, priorities and implementation considerations.
+  travix:
+    positions:
+      lead:
+        bullets:
+          - Guided 12+ client software projects from requirements analysis and solution definition through implementation and launch.
+          - Clarified business needs with 11+ clients and translated them into practical, prioritized requirements for development teams.
+          - Balanced scope, timeline and budget through effort estimation and ongoing scope and budget tracking.
+          - Led teams of up to 9 developers and 2 project managers, aligning priorities, workloads and dependencies.
+      dev:
+        bullets:
+          - Delivered 10+ web projects for 10+ clients, translating customer requirements into functional and technical solutions.
+  html-design:
+    bullets:
+      - Developed and maintained websites and software for 4 clients across 5+ projects.
+      - Optimized database queries, reducing processing times from 4-5 seconds to under 1 second.

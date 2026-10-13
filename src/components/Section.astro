@@ -1,0 +1,14 @@
+---
+interface Props {
+  title: string;
+  class?: string;
+}
+
+const { title, class: className } = Astro.props;
+const id = `section-${title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
+---
+
+<section class:list={['section', className]} aria-labelledby={id}>
+  <h2 class="section__title" id={id}>{title}</h2>
+  <slot />
+</section>

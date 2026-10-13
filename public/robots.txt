@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /_k/
+Disallow: /cv/_k/

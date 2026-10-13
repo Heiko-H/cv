@@ -1,0 +1,97 @@
+# Shared data for every resume. Role files (dev.yaml, pm.yaml, ...) only override what differs.
+# Contact details (email, phone, location) are NOT stored here - they come from encrypted secrets.
+#
+# Merge rules: objects merge, lists replace, `null` removes a value.
+# Lists with ids (work, positions) can be overridden by id, e.g.
+#   work:
+#     travix:
+#       positions:
+#         lead: { bullets: [...] }
+name: Heiko Heinold
+headline: Technology Professional
+summary: >-
+  Technology professional with 14+ years of experience across business analysis, requirements
+  engineering, software implementation, project leadership and technical delivery. Strong at
+  analyzing business needs and processes, translating them into clear system requirements and
+  practical technology solutions, and working closely with business stakeholders and technical teams.
+
+links: []
+
+skills:
+  - category: Business & Requirements
+    items: [Requirements Engineering, Business Process Analysis, Solution Design, Process Improvement, Prioritization]
+  - category: Delivery & Stakeholders
+    items: [Stakeholder Management, Project Planning & Estimation, Scope & Timeline Management, Team Leadership]
+  - category: Technical Background
+    items: [PHP & Symfony, TypeScript & JavaScript, React & Vue, SQL & MySQL, Pimcore & TYPO3]
+
+certifications:
+  - name: IREB CPRE Foundation Level
+    issuer: GSAQ
+    date: 08/2026
+    url: https://cpre.ireb.org/de/service/cpre-registry-list/19677
+  - name: Pimcore Enterprise Developer
+    issuer: Pimcore GmbH
+    date: 02/2024
+  - name: Pimcore Consultant
+    issuer: Pimcore GmbH
+    date: 02/2024
+
+education:
+  - school: Stuttgart Media University (HdM)
+    location: Stuttgart, Germany
+    date: 03/2012
+    degree: Bachelor of Science, Business Informatics
+
+languages:
+  - { name: German, level: Native }
+  - { name: English, level: Fluent }
+  - { name: French, level: Basic }
+  - { name: Italian, level: Basic }
+
+work:
+  - id: ri-werkstattservice
+    company: ri werkstattservice GmbH
+    title: Requirements Engineer & Implementation Lead
+    location: Holzgerlingen, Germany
+    start: 02/2025
+    end: Present
+    bullets:
+      - Work with management, users and development partners across 8 applications to analyze business needs, define system requirements and translate them into practical technology solutions.
+      - Analyze and structure 10+ complex business processes, identifying dependencies, system impacts and improvement opportunities.
+      - Coordinate technical implementation across multiple applications and development partners, assessing dependencies and priorities.
+      - Work directly with users to uncover underlying problems, clarify requirements and improve software functionality and user experience.
+
+  - id: travix
+    company: Travix Media GmbH
+    title: Web Developer → Team Lead & Project Manager
+    location: Stuttgart, Germany
+    start: 03/2015
+    end: 01/2025
+    positions:
+      - id: lead
+        title: Team Lead & Project Manager
+        period: 2021 - 2025
+        bullets:
+          - Led teams of up to 9 developers and 2 project managers, coordinating priorities, workloads, dependencies and technical delivery across multiple projects.
+          - Managed 12+ software projects for 11+ clients from requirements analysis through solution definition, implementation and launch.
+          - Planned scope, timelines, resources and budgets, including effort estimation, cost planning and ongoing budget tracking.
+          - Mentored and onboarded 5 developers, providing technical guidance, feedback and quality oversight.
+      - id: dev
+        title: Web Developer
+        period: 2015 - 2021
+        bullets:
+          - Delivered 10+ web projects for 10+ clients, translating customer requirements into scalable web applications and system integrations.
+
+  - id: html-design
+    company: HTML Design
+    title: Web Developer
+    location: Stuttgart, Germany
+    start: 03/2012
+    end: 02/2015
+    bullets:
+      - Developed and maintained websites and software for 4 clients across 5+ projects.
+      - Optimized database queries, reducing processing times from 4-5 seconds to under 1 second.
+
+seo:
+  index: false

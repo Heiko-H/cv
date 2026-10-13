@@ -1,0 +1,34 @@
+---
+import type { Cv } from '../lib/schema';
+
+interface Props {
+  name: Cv['name'];
+  headline: Cv['headline'];
+  links: Cv['links'];
+}
+
+const { name, headline, links } = Astro.props;
+const displayUrl = (url: string) => url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
+---
+
+<header class="header">
+  <div class="header__identity">
+    <h1 class="header__name">{name}</h1>
+    <p class="header__headline">{headline}</p>
+  </div>
+  <div class="header__contact">
+    <slot />
+    {
+      links.length > 0 && (
+        <ul class="header__links">
+          {links.map((link) => (
+            <li>
+              <span class="header__link-label">{link.label}</span>
+              <a href={link.url}>{displayUrl(link.url)}</a>
+            </li>
+          ))}
+        </ul>
+      )
+    }
+  </div>
+</header>

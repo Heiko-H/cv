@@ -1,0 +1,119 @@
+---
+import '@fontsource/inter/latin-400.css';
+import '@fontsource/inter/latin-500.css';
+import '@fontsource/inter/latin-600.css';
+import '@fontsource/inter/latin-700.css';
+import '../styles/cv.css';
+
+import Contact from '../components/Contact.astro';
+import Header from '../components/Header.astro';
+import Section from '../components/Section.astro';
+import Skills from '../components/Skills.astro';
+import WorkItem from '../components/WorkItem.astro';
+import type { Cv } from '../lib/schema';
+import { publicUrl } from '../lib/site';
+
+interface Props {
+  slug: string;
+  cv: Cv;
+}
+
+const { slug, cv } = Astro.props;
+const title = `${cv.name} - ${cv.headline}`;
+const description = cv.summary.length > 160 ? `${cv.summary.slice(0, 157).trimEnd()}...` : cv.summary;
+// Always the public GitHub Pages URL, also when built locally without the /cv base.
+const canonical = publicUrl(slug);
+const work = cv.work.filter((job) => !job.hidden);
+---
+
+<!doctype html>
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content={cv.name} />
+    <meta name="robots" content={cv.seo.index ? 'index, follow' : 'noindex, nofollow, noarchive, noimageindex'} />
+    <meta name="format-detection" content="telephone=no, email=no, address=no" />
+    <link rel="canonical" href={canonical} />
+  </head>
+  <body>
+    <main class="page">
+      <Header name={cv.name} headline={cv.headline} links={cv.links}>
+        <Contact url={canonical} />
+      </Header>
+
+      <div class="columns">
+        <div class="main">
+          <Section title="Professional Summary" class="summary">
+            <p>{cv.summary}</p>
+          </Section>
+
+          <Section title="Work History">
+            {work.map((job) => <WorkItem job={job} />)}
+          </Section>
+        </div>
+
+        <aside class="sidebar">
+          <Section title="Skills">
+            <Skills skills={cv.skills} />
+          </Section>
+
+          {
+            cv.certifications.length > 0 && (
+              <Section title="Certifications">
+                <ul class="entries">
+                  {cv.certifications.map((cert) => (
+                    <li class="entry">
+                      <p class="entry__name">
+                        {cert.url ? <a href={cert.url}>{cert.name}</a> : cert.name}
+                      </p>
+                      <p class="entry__meta">
+                        {cert.issuer} · {cert.date}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </Section>
+            )
+          }
+
+          {
+            cv.education.length > 0 && (
+              <Section title="Education">
+                <ul class="entries">
+                  {cv.education.map((edu) => (
+                    <li class="entry">
+                      <p class="entry__name">{edu.degree}</p>
+                      <p class="entry__meta">{edu.school}</p>
+                      <p class="entry__meta">
+                        {edu.location} · {edu.date}
+                      </p>
+                      {edu.details && <p class="entry__meta">{edu.details}</p>}
+                    </li>
+                  ))}
+                </ul>
+              </Section>
+            )
+          }
+
+          {
+            cv.languages.length > 0 && (
+              <Section title="Languages">
+                <ul class="languages">
+                  {cv.languages.map((language) => (
+                    <li>
+                      <span class="languages__name">{language.name}</span>
+                      <span class="languages__level">{language.level}</span>
+                    </li>
+                  ))}
+                </ul>
+              </Section>
+            )
+          }
+        </aside>
+      </div>
+    </main>
+  </body>
+</html>

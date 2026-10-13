@@ -1,0 +1,41 @@
+headline: Technical Team Lead
+summary: >-
+  Technical team lead and full-stack developer with 14+ years of experience, including 4 years
+  leading teams of up to 9 developers. Combines hands-on expertise in PHP/Symfony, TypeScript,
+  React/Vue and Pimcore with mentoring, technical guidance and quality oversight. Experienced in
+  turning business requirements into sound solution designs and system integrations, and in
+  coordinating delivery across multiple projects, clients and development partners.
+
+skills:
+  - category: Leadership
+    items: [Team Leadership, Mentoring & Onboarding, Feedback & Coaching, Workload & Priority Planning, Stakeholder Communication]
+  - category: Engineering Practices
+    items: [Code Quality & Reviews, Technical Guidance, Effort Estimation, Requirements Engineering]
+  - category: Architecture & Integration
+    items: [Solution Design, System Integration & APIs, Database Design & Data Modelling, Performance Optimization]
+  - category: Tech Stack
+    items: [PHP & Symfony, TypeScript & JavaScript, React & Vue, SQL & MySQL, Docker]
+  - category: Platforms
+    items: [Pimcore, TYPO3, "PIM, MDM & DAM", Content Management Systems]
+
+work:
+  ri-werkstattservice:
+    bullets:
+      - Lead technical implementation across 8 business applications and multiple external development partners, assessing dependencies, priorities and delivery risks.
+      - Translate business needs from management and users into clear system requirements and practical technical solutions.
+      - Analyze 10+ complex business processes to identify system impacts and integration opportunities.
+  travix:
+    positions:
+      lead:
+        bullets:
+          - Led teams of up to 9 developers and 2 project managers, coordinating priorities, workloads, dependencies and technical delivery across multiple projects.
+          - Mentored and onboarded 5 developers, providing technical guidance, feedback and quality oversight.
+          - Defined solutions and guided implementation of 12+ software projects for 11+ clients, from requirements analysis to launch.
+          - Bridged clients and development teams, resolving issues, analyzing technical impacts and managing requirements.
+      dev:
+        bullets:
+          - Delivered 10+ web projects for 10+ clients, developing scalable web applications and system integrations.
+  html-design:
+    bullets:
+      - Optimized database queries, reducing processing times from 4-5 seconds to under 1 second.
+      - Designed databases, data models and schemas for reliable data storage and retrieval.

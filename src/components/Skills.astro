@@ -1,0 +1,26 @@
+---
+import type { Skill } from '../lib/schema';
+
+interface Props {
+  skills: Skill[];
+}
+
+const { skills } = Astro.props;
+---
+
+<dl class="skills">
+  {
+    skills.map((skill) => (
+      <div class="skills__group">
+        <dt class="skills__category">{skill.category}</dt>
+        <dd class="skills__items">
+          <ul>
+            {skill.items.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </dd>
+      </div>
+    ))
+  }
+</dl>

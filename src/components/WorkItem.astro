@@ -1,0 +1,46 @@
+---
+import type { Job } from '../lib/schema';
+
+interface Props {
+  job: Job;
+}
+
+const { job } = Astro.props;
+---
+
+<article class="job">
+  <header class="job__header">
+    <h3 class="job__company">{job.company}</h3>
+    <p class="job__period">{job.start} - {job.end}</p>
+    <p class="job__title">{job.title}</p>
+    <p class="job__location">{job.location}</p>
+  </header>
+
+  {
+    job.bullets.length > 0 && (
+      <ul class="bullets">
+        {job.bullets.map((bullet) => (
+          <li>{bullet}</li>
+        ))}
+      </ul>
+    )
+  }
+
+  {
+    job.positions?.map((position) => (
+      <div class="position">
+        <h4 class="position__title">
+          {position.title}
+          {position.period && <span class="position__period">{position.period}</span>}
+        </h4>
+        {position.bullets.length > 0 && (
+          <ul class="bullets">
+            {position.bullets.map((bullet) => (
+              <li>{bullet}</li>
+            ))}
+          </ul>
+        )}
+      </div>
+    ))
+  }
+</article>
