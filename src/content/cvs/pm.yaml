@@ -1,41 +1,43 @@
 headline: IT Project Manager
 summary: >-
-  IT project manager with 14+ years in software delivery, including 4 years leading teams of up to
-  9 developers and 2 project managers. Managed 12+ software projects for 11+ clients end-to-end -
-  from requirements and estimation through budget tracking, implementation and launch. A
-  hands-on development background enables realistic planning, early risk detection and credible
-  communication between clients, stakeholders and engineering teams.
+  Technology professional with 14+ years of experience across software development, client
+  projects, project leadership and technical implementation. Managed 12+ software projects for 11+
+  clients and coordinated delivery teams of up to 9 developers and 2 project managers. Experienced
+  in translating client needs into technical delivery plans, coordinating teams, managing scope,
+  timelines, resources and budgets, and guiding projects from requirements through implementation
+  and launch.
 
 skills:
-  - category: Project Delivery
-    items: [End-to-End Project Management, Project Planning & Scheduling, Scope & Timeline Management, Risk & Issue Resolution, Launch Coordination]
-  - category: Budget & Resources
-    items: [Effort Estimation, Cost Planning, Budget Tracking, Resource & Capacity Planning]
-  - category: Stakeholders & Leadership
-    items: [Client & Stakeholder Management, Team Leadership, Mentoring & Onboarding, Cross-functional Coordination]
-  - category: Requirements
-    items: [Requirements Engineering, Business Process Analysis, Solution Design, Prioritization]
-  - category: Technical Background
-    items: [PHP & Symfony, TypeScript, React & Vue, SQL & MySQL, APIs & System Integration]
+  - category: Project & Client Management
+    items: [Project Management, Client Management, Stakeholder Management, Project Planning & Estimation, Scope & Timeline Management, Budget & Cost Tracking, Resource Coordination]
+  - category: Delivery & Leadership
+    items: [Team Leadership, Prioritization & Decision Making, Requirements & Change Management, Issue Resolution, Quality Assurance]
+  - category: Technology
+    items: [Technical Coordination, Requirements Engineering, Solution Design, Software Implementation, System Integration, Web Applications & CMS, APIs & System Interfaces]
 
 work:
   ri-werkstattservice:
     bullets:
-      - Coordinate implementation across 8 business applications and multiple external development partners, managing dependencies, priorities and delivery timelines.
-      - Analyze and structure 10+ complex business processes with management and users to define scope and system requirements.
-      - Assess the impact of changes across systems and workflows to support clear prioritization decisions.
+      - Coordinate business requirements and software implementation across 8 applications, working with management, users and development partners.
+      - Analysed and structured 10+ complex business processes to clarify dependencies, priorities and improvement opportunities.
+      - Coordinate technical delivery across multiple applications and development partners, managing priorities and dependencies.
+      - Work directly with users to clarify problems, align expectations and improve software functionality and user experience.
+      - In one specific AI-assisted development example, a feature was delivered in approximately 1 week against a 4-week estimate (about 75% less time for that feature).
   travix:
     positions:
       lead:
         bullets:
-          - Managed 12+ software projects for 11+ clients end-to-end, from requirements analysis and solution definition through implementation and launch.
-          - Planned scope, timelines, resources and budgets, including effort estimation, cost planning and ongoing scope and budget tracking.
-          - Led teams of up to 9 developers and 2 project managers, balancing priorities, workloads and dependencies across parallel projects.
-          - Served as the main point of contact for clients and stakeholders, resolving issues, analyzing impacts and managing requirement changes.
+          - Managed 12+ software projects for 11+ clients from initial requirements through implementation and launch.
+          - Coordinated teams of up to 9 developers and 2 project managers, coordinating priorities, workloads, dependencies and delivery.
+          - Planned project scope, timelines, resources and budgets, including effort estimation, cost planning and ongoing scope and budget tracking.
+          - Served as the main contact between clients, stakeholders and development teams, resolving issues and managing changing requirements.
+          - Onboarded and mentored 5 developers and provided technical guidance, code review and quality oversight.
       dev:
         bullets:
-          - Delivered 10+ web projects for 10+ clients, translating customer requirements into functional and technical solutions.
+          - Delivered 10+ web projects for 10+ clients, translating client requirements into technical solutions.
+          - Developed scalable web applications and system integrations, building the technical understanding later used to coordinate delivery.
   html-design:
     bullets:
-      - Delivered 5+ web and software projects for 4 clients.
-      - Optimized database queries, reducing processing times from 4-5 seconds to under 1 second.
+      - Developed and maintained websites and software for 4 clients across 5+ projects.
+      - Reduced database query processing time from 4–5 seconds to under 1 second through query optimisation.
+      - Designed databases, data models and schemas for reliable data storage and retrieval.

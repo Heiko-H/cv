@@ -1,42 +1,42 @@
 headline: Product Owner
 summary: >-
-  Product-minded technology professional with 14+ years of turning user and business needs into
-  valuable software. Defines and prioritizes requirements across 8 business applications, works
-  directly with users to uncover underlying problems, and has guided development teams from idea
-  to launch on 12+ client projects. IREB CPRE certified, with a hands-on engineering background
-  that supports clear user stories, realistic trade-offs and close collaboration with developers.
+  Technology professional with 14+ years of experience across software development, requirements
+  engineering, project leadership and implementation. Strong at understanding user and business
+  needs, structuring complex requirements, identifying process improvements and aligning
+  stakeholders with technical teams. Combines hands-on software knowledge with experience
+  coordinating delivery across applications, clients and development teams.
 
 skills:
-  - category: Product Ownership
-    items: [Backlog Management, Prioritization & Trade-offs, User Stories & Acceptance Criteria, Release Planning]
-  - category: Users & Business
-    items: [User Needs Analysis, Business Process Analysis, UX Improvement, Solution Design, Process Improvement]
-  - category: Collaboration
-    items: [Stakeholder Management, Client Communication, Cross-functional Team Leadership, Developer Collaboration]
-  - category: Delivery
-    items: [Effort Estimation, Scope & Timeline Management, Budget Tracking, Dependency Management]
-  - category: Technical Background
-    items: [APIs & System Integration, PHP & Symfony, TypeScript, React & Vue, SQL & MySQL]
+  - category: Product & Business
+    items: [Business Needs Analysis, Requirements Engineering, Stakeholder Management, User Needs & Feedback, Business Process Analysis, Process Improvement, Prioritization & Decision Making, Solution Design]
+  - category: Delivery & Collaboration
+    items: [Software Implementation, Technical Coordination, Scope & Change Management, Project Planning & Estimation, Quality Assurance]
+  - category: Systems & Technology
+    items: [System Integration, APIs & System Interfaces, SQL / MySQL, Web Applications, Content Management Systems, Technical Problem Solving]
 
 work:
   ri-werkstattservice:
     bullets:
-      - Define and prioritize requirements for 8 business applications together with management, users and development partners.
-      - Work directly with users to uncover underlying problems and turn them into functional improvements and a better user experience.
-      - Analyze 10+ complex business processes to identify improvement opportunities and system impacts that inform priorities.
-      - Coordinate delivery with development partners, weighing dependencies, priorities and implementation considerations.
+      - Work with management, users and development partners across 8 applications to identify business needs and define requirements.
+      - Analysed and structured 10+ complex business processes, identifying dependencies and opportunities to improve workflows and systems.
+      - Coordinate implementation across multiple applications, aligning priorities, dependencies and technical delivery.
+      - Work directly with users to clarify problems and improve software functionality and user experience; implemented improvements are regularly well received.
+      - Help translate user and business needs into practical changes for development.
   travix:
     positions:
       lead:
         bullets:
-          - Guided 12+ client software projects from requirements analysis and solution definition through implementation and launch.
-          - Clarified business needs with 11+ clients and translated them into practical, prioritized requirements for development teams.
-          - Balanced scope, timeline and budget through effort estimation and ongoing scope and budget tracking.
-          - Led teams of up to 9 developers and 2 project managers, aligning priorities, workloads and dependencies.
+          - Managed 12+ software projects for 11+ clients from initial requirements through implementation and launch.
+          - Worked with clients to clarify business objectives, challenge unclear requests and translate requirements into practical technical solutions.
+          - Coordinated delivery with teams of up to 9 developers and 2 project managers, aligning priorities, scope and dependencies.
+          - Managed changing requirements and resolved issues between clients, stakeholders and development teams.
+          - Supported quality and consistent delivery through technical guidance, code reviews and the onboarding and mentoring of 5 developers.
       dev:
         bullets:
-          - Delivered 10+ web projects for 10+ clients, translating customer requirements into functional and technical solutions.
+          - Delivered 10+ web projects for 10+ clients, translating client requirements into functional web solutions.
+          - Developed web applications and system integrations, contributing practical technical knowledge to solution decisions.
   html-design:
     bullets:
       - Developed and maintained websites and software for 4 clients across 5+ projects.
-      - Optimized database queries, reducing processing times from 4-5 seconds to under 1 second.
+      - Improved a database query's processing time from 4–5 seconds to under 1 second through query optimisation.
+      - Designed databases, data models and schemas to support reliable data storage and retrieval.

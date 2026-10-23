@@ -16,13 +16,13 @@
   --fs-base: 10.5pt;
   --lh: 1.45;
   --gap-section: 1.8em;
-  --gap-job: 0.95em;
+  --gap-job: 1.95em;
   --sidebar: 2.55in;
   --column-gap: 0.3in;
-  --page-padding: 0.55in;
+  --page-padding: 0.45in;
   /* Safe distance between text and the paper edge when printing. */
-  --print-padding-x: 0.6in;
-  --print-padding-y: 0.5in;
+  --print-padding-x: 0.36in;
+  --print-padding-y: 0.35in;
 }
 
 *,
@@ -245,8 +245,11 @@ a:hover {
 
 .skills__category {
   font-weight: 600;
+  margin-bottom: 0.25em;
 }
-
+.skills__items{
+  margin-left: 0.75em;
+}
 .skills__items li {
   display: inline-block;
   margin-right: 0.15em;
@@ -432,7 +435,7 @@ a:hover {
     --gap-section: 1.35em;
     --gap-job: 0.7em;
     --sidebar: 2.5in;
-    --column-gap: 0.24in;
+    --column-gap: 0.2in;
   }
 
   html,

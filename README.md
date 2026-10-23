@@ -41,7 +41,7 @@ page on GitHub Pages, prints on exactly **one US Letter page** and keeps the con
 `positions`) can be overridden by id. Chains such as `dev-shopify → dev → base` are supported.
 Files starting with `_` are treated as drafts/partials and are not published.
 
-**Validation:** the build fails on typos (unknown keys), more than 5 items per skill category,
+**Validation:** the build fails on typos (unknown keys), more than 8 items per skill category,
 more than 6 skill categories or more than 3 certifications. The workflow also fails if any
 resume does not fit on one Letter page.
 

@@ -1,42 +1,44 @@
 headline: Full-Stack Web Developer
 summary: >-
-  Full-stack web developer with 14+ years of experience building and integrating web applications
-  with PHP/Symfony, TypeScript, React and Vue. Certified Pimcore Enterprise Developer with deep
-  experience in PIM, MDM, DAM and CMS platforms and API-based system integration. Combines
-  hands-on engineering with team leadership and requirements engineering to turn business needs
-  into maintainable, well-structured solutions.
+  Web development and technology professional with 14+ years of experience across web
+  applications, software development, databases, CMS platforms and system integration. Delivered
+  10+ web projects for 10+ clients as a Web Developer and supported a further 5+ projects for 4
+  clients earlier in the career. Strong in PHP/Symfony, SQL/MySQL, JavaScript/TypeScript, CMS
+  platforms, APIs and system integration, with additional experience in technical coordination,
+  code reviews and team leadership.
 
 skills:
-  - category: Languages
-    items: [PHP, TypeScript, JavaScript, SQL, HTML & CSS]
-  - category: Frameworks & Frontend
-    items: [Symfony, React, Vue.js, REST APIs, Responsive Web Design]
-  - category: Platforms
-    items: [Pimcore, TYPO3, "PIM, MDM & DAM", Content Management Systems]
-  - category: Data & Integration
-    items: [MySQL, Database Design & Data Modelling, Query Optimization, System Integration]
-  - category: Tools & Practices
-    items: [Docker, Git, Code Quality & Reviews, Requirements Engineering, Mentoring]
+  - category: Backend & Databases
+    items: [PHP, Symfony, SQL / MySQL, Database Design & Data Modelling, Query Optimisation]
+  - category: Frontend & Web Applications
+    items: [JavaScript, TypeScript, React, Vue, Web Application Development]
+  - category: CMS & Digital Platforms
+    items: [Pimcore, TYPO3, Wordpress, CMS / PIM / DAM / MDM]
+  - category: Integration & Delivery
+    items: [APIs & System Interfaces, System Integration, Workflows & Data Flows, Docker, WSL2 / Ubuntu, Code Reviews, Quality Assurance, Technical Coordination]
 
 work:
   ri-werkstattservice:
     bullets:
-      - Translate business needs across 8 internal applications into clear technical requirements and implementation-ready specifications for development partners.
-      - Analyze 10+ complex business processes to identify system dependencies, integration points and improvement opportunities.
-      - Coordinate technical implementation with development partners, assessing impact, dependencies and priorities across systems.
+      - Work across 8 applications with management, users and development partners to clarify requirements and coordinate software changes.
+      - Analysed 10+ complex business processes, including dependencies across users, workflows and systems.
+      - Coordinate technical implementation across multiple applications and development partners.
+      - In one AI-assisted development example, a feature was delivered in approximately 1 week against a 4-week estimate (about 75% less time for that feature).
   travix:
     positions:
       lead:
         bullets:
-          - Led a team of up to 9 developers, providing technical guidance, feedback and quality oversight across multiple concurrent projects.
-          - Delivered 12+ software projects for 11+ clients, from requirements analysis and solution design through implementation and launch.
-          - Mentored and onboarded 5 developers, accelerating their ramp-up on the codebase, stack and delivery process.
+          - Led teams of up to 9 developers and 2 project managers across 12+ software projects for 11+ clients.
+          - Provided technical guidance, code reviews, feedback and quality oversight for development teams.
+          - Translated client requirements into implementation plans and coordinated technical delivery from requirements through launch.
+          - Onboarded and mentored 5 developers.
       dev:
         bullets:
-          - Built 10+ web applications for 10+ clients with PHP/Symfony, JavaScript and the Pimcore and TYPO3 platforms.
-          - Developed scalable system integrations and APIs connecting web platforms with client systems for product, master and digital asset data.
+          - Independently delivered 10+ web projects for 10+ clients based on customer requirements.
+          - Translated client requirements into technical solutions and developed scalable web applications and system integrations.
+          - Worked across web development, CMS implementations and database-backed applications.
   html-design:
     bullets:
       - Developed and maintained websites and software for 4 clients across 5+ projects.
-      - Optimized database queries, reducing processing times from 4-5 seconds to under 1 second.
+      - Optimised database queries, reducing processing time from 4–5 seconds to under 1 second.
       - Designed databases, data models and schemas for reliable data storage and retrieval.

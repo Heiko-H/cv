@@ -1,34 +1,41 @@
 headline: Business Analyst
 summary: >-
-  Business analyst with 14+ years of experience in requirements engineering, business process
-  analysis and software delivery. IREB CPRE certified and skilled at eliciting needs from management
-  and users, structuring complex processes and translating them into clear, testable system
-  requirements. A strong technical background in system integration, APIs and data enables
-  effective collaboration with development teams across the full delivery lifecycle.
+  Technology professional with 14+ years of experience across software development, requirements
+  engineering, process analysis and implementation. Experienced in analysing 10+ complex business
+  processes and translating business needs into clear requirements and practical system changes
+  across 8 applications. Combines strong stakeholder communication and structured problem-solving
+  with hands-on understanding of software, APIs, data flows and system integration.
 
 skills:
-  - category: Business & Requirements
-    items: [Requirements Engineering, Business Process Analysis, Solution Design, Process Improvement, Prioritization & Decision Making]
-  - category: Systems & Technology
-    items: [System Integration, APIs & System Interfaces, SQL & MySQL, Software Implementation, "PIM, MDM & DAM"]
-  - category: Delivery & Stakeholders
-    items: [Stakeholder Management, Project Planning & Estimation, Scope & Timeline Management, Technical Coordination, Team Leadership]
-  - category: Technical Background
-    items: [PHP & Symfony, TypeScript & JavaScript, React & Vue, Pimcore & TYPO3, Docker]
+  - category: Business Analysis & Requirements
+    items: [Requirements Engineering, Business Process Analysis, Stakeholder Needs Clarification, Process Improvement, Solution Design, Prioritization & Decision Making]
+  - category: Systems & Implementation
+    items: [Business Systems Analysis, System Integration, APIs & System Interfaces, Workflows & Data Flows, Software Implementation, Technical Coordination, Quality Assurance]
+  - category: Technical Foundation
+    items: [SQL / MySQL, Web Applications, PHP / Symfony, JavaScript / TypeScript, Content Management Systems]
 
 work:
+  ri-werkstattservice:
+    bullets:
+      - Work with management, users and development partners across 8 applications to understand business needs and define requirements.
+      - Analysed and structured 10+ complex business processes, identifying dependencies, workflow issues and improvement opportunities across users and systems.
+      - Coordinate technical implementation across applications and development partners, clarifying priorities and dependencies.
+      - Work directly with users to identify underlying problems, clarify expectations and improve software functionality and user experience.
   travix:
     positions:
       lead:
         bullets:
-          - Managed 12+ software projects for 11+ clients from requirements analysis through solution definition, implementation and launch.
-          - Worked closely with clients to understand business needs, clarify requirements and translate them into practical system and technology solutions.
-          - Acted as the main point of contact between clients, stakeholders and development teams, resolving issues, analyzing impacts and managing requirements.
-          - Led teams of up to 9 developers and 2 project managers, coordinating priorities, dependencies and technical delivery.
+          - Managed 12+ software projects for 11+ clients, from requirements through implementation and launch.
+          - Worked directly with clients to clarify needs, challenge assumptions and translate business requirements into practical technical solutions.
+          - Served as the main point of contact between clients, stakeholders and developers, resolving issues and managing changing requirements.
+          - Coordinated teams of up to 9 developers and 2 project managers, aligning technical work with client priorities and delivery constraints.
+          - Supported quality assurance and mentored 5 developers, providing technical guidance and feedback.
       dev:
         bullets:
-          - Delivered 10+ web projects for 10+ clients, translating customer requirements into functional and technical solutions and system integrations.
+          - Delivered 10+ web projects for 10+ clients based on customer requirements.
+          - Translated client requirements into technical solutions and developed web applications and system integrations.
   html-design:
     bullets:
       - Developed and maintained websites and software for 4 clients across 5+ projects.
-      - Designed databases, data models and schemas, and optimized queries to cut processing times from 4-5 seconds to under 1 second.
+      - Optimised database queries, reducing processing time from 4–5 seconds to under 1 second.
+      - Designed databases, data models and schemas to support reliable data storage and retrieval.

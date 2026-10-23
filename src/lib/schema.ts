@@ -4,7 +4,7 @@ const nonEmpty = z.string().trim().min(1);
 
 export const SkillSchema = z.strictObject({
   category: nonEmpty,
-  items: z.array(nonEmpty).min(1).max(5, 'A skill category may contain at most 5 items'),
+  items: z.array(nonEmpty).min(1).max(8, 'A skill category may contain at most 8 items'),
 });
 
 export const CertificationSchema = z.strictObject({

@@ -96,9 +96,9 @@ describe('buildCvs', () => {
     expect(entries[0]?.data.work[0]?.hidden).toBe(false);
   });
 
-  it('fails when a skill category has more than 5 items', () => {
-    const skills = [{ category: 'Too many', items: ['1', '2', '3', '4', '5', '6'] }];
-    expect(() => buildCvs({ base, dev: { skills } })).toThrow(/at most 5 items/);
+  it('fails when a skill category has more than 8 items', () => {
+    const skills = [{ category: 'Too many', items: ['1', '2', '3', '4', '5', '6', '7', '8', '9'] }];
+    expect(() => buildCvs({ base, dev: { skills } })).toThrow(/at most 8 items/);
   });
 
   it('fails on unknown keys (typos)', () => {
