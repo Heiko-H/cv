@@ -19,10 +19,10 @@
   --gap-job: 1.95em;
   --sidebar: 2.55in;
   --column-gap: 0.3in;
-  --page-padding: 0.45in;
+  --page-padding: 0.35in;
   /* Safe distance between text and the paper edge when printing. */
-  --print-padding-x: 0.36in;
-  --print-padding-y: 0.35in;
+  --print-padding-x: 0.26in;
+  --print-padding-y: 0.25in;
 }
 
 *,
@@ -388,7 +388,7 @@ a:hover {
 @media screen and (max-width: 720px) {
   :root {
     --fs-base: 11pt;
-    --page-padding: 1.25rem;
+    --page-padding: 1.05rem;
   }
 
   .header {
