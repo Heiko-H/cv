@@ -20,6 +20,11 @@ jobs:
     env:
       # GitHub Pages serves the project repository under /cv; locally the base is /.
       CV_BASE: /cv
+      # Plaintext only lives in GitHub Secrets. Set for the whole job because `astro check`
+      # loads the Astro config too, and the contact-key integration fails in CI if any is missing.
+      CV_EMAIL: ${{ secrets.CV_EMAIL }}
+      CV_PHONE: ${{ secrets.CV_PHONE }}
+      CV_LOCATION: ${{ secrets.CV_LOCATION }}
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -46,17 +51,9 @@ jobs:
 
       - name: Build
         run: npm run build
-        env:
-          # Plaintext only lives in GitHub Secrets; the build fails if any is missing.
-          CV_EMAIL: ${{ secrets.CV_EMAIL }}
-          CV_PHONE: ${{ secrets.CV_PHONE }}
-          CV_LOCATION: ${{ secrets.CV_LOCATION }}
 
       - name: Check that no contact details leak in plaintext
         run: npm run check:secrets
-        env:
-          CV_EMAIL: ${{ secrets.CV_EMAIL }}
-          CV_PHONE: ${{ secrets.CV_PHONE }}
 
       - name: Install Playwright Chromium
         run: npx playwright install --with-deps chromium
