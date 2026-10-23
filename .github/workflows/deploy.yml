@@ -22,13 +22,18 @@ jobs:
       CV_BASE: /cv
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Set up Node.js
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v7
         with:
-          node-version: 22
+          # Astro 7 and Vitest 5 require Node >= 22.12.
+          node-version: 22.x
           cache: npm
+
+      - name: Check GitHub Pages setup
+        # Fails early with a clear message if Settings → Pages → Source is not "GitHub Actions".
+        uses: actions/configure-pages@v6
 
       - name: Install dependencies
         run: npm ci
@@ -60,7 +65,7 @@ jobs:
         run: npm run check:pages
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: dist
 
@@ -73,4 +78,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
